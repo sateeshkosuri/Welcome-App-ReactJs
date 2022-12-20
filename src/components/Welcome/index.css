@@ -1,0 +1,54 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    justify-content: flex-start;
+  }
+}
+
+.heading {
+  color: #f0bb03;
+  font-size: 90px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.description {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 25px;
+  }
+}
+.btn {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+  }
+}
